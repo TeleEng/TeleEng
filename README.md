@@ -11,20 +11,23 @@ I am an advanced Machine Learning Engineer specializing in deep learning, comple
 
 ### 🛠️ Core Competencies
 
-| Domain | Technologies |
-| :--- | :--- |
-| **AI & Deep Learning** | PyTorch, TensorFlow, LLMs, RAG, LoRA/PEFT, YOLOv8, TFT, GNN, RL |
-| **Signal Processing** | 1D-CNNs, OpenCV, DWT, EMD, DMD, Kalman Filters, RF Fingerprinting |
-| **Optimization** | MILP, Benders Decomposition, ACO, Meta-heuristics (GVNS, CBS, SOM) |
-| **MLOps & Backend** | Python, FastAPI, Docker, GitHub Actions, Microservices, SQLite, MySQL |
+| Domain | Technologies | Mastery |
+| :--- | :--- | :---: |
+| **AI & Deep Learning** | PyTorch, TensorFlow, LLMs, RAG, LoRA/PEFT, YOLOv8, TFT, GNN, RL | ⭐⭐⭐⭐⭐ |
+| **Signal Processing** | 1D-CNNs, OpenCV, DWT, EMD, DMD, Kalman Filters, RF Fingerprinting | ⭐⭐⭐⭐⭐ |
+| **Optimization** | MILP, Benders Decomposition, ACO, Meta-heuristics (GVNS, CBS, SOM) | ⭐⭐⭐⭐⭐ |
+| **MLOps & Backend** | Python, FastAPI, Docker, GitHub Actions, Microservices, SQLite, MySQL | ⭐⭐⭐⭐⭐ |
+| **Real-Time Web (New)** | WebSockets, Asynchronous Streaming, Vanilla JS, DOM Manipulation | ⭐⭐⭐ |
 
 ---
 
 ### 🏆 Featured Architectures & Projects
 
-* **SENTINEL (RF Fingerprinting):** Architected a self-supervised contrastive learning framework to identify specific radio frequency emitters from raw I/Q signals. I engineered the underlying discovery engine with the structural capability to seamlessly transition to live online data streams, utilizing dynamic density thresholds and Agglomerative Hierarchical Clustering.
+* **[SENTINEL Advanced C-UAS Platform](https://github.com/TeleEng/anti_uav_defense_system):** Architected a self-supervised contrastive learning framework to identify specific radio frequency emitters from raw I/Q signals. 
+  * *Production Scale:* Engineered the underlying discovery engine with the structural capability to seamlessly transition to live online data streams, utilizing dynamic density thresholds and Agglomerative Hierarchical Clustering.
+  * *Open-Source Demo:* Developed a real-time, end-to-end Counter-UAS dashboard demonstrating the pipeline. Integrated physical-layer BPSK demodulation, Center Loss-bounded feature extraction (FPFE-1D), asynchronous WebSockets (FastAPI), and autonomous mitigation via MAVLink.
 * **Temporal Fusion Transformer Trading Engine:** Developed an intraday FX algorithmic trading bot utilizing PyTorch-based TFTs to process 30-timestep sequences for market regime prediction, aggressively filtering contradictory market labels with PyTorch Edited Nearest Neighbors (ENN).
-* **Robust Hub Location Optimization:** Solved complex network memory blowups by reducing formulation complexity from O(N^2) to O(N^2) using Benders Decomposition, replacing slow solver evaluations with Benders Decomposition and vectorized tensor operations.
+* **Robust Hub Location Optimization:** Solved complex network memory blowups by reducing formulation complexity from **$O(N^4)$ to $O(N^2)$** using Benders Decomposition, replacing slow solver evaluations with vectorized tensor operations.
 * **Multi-Agent Traffic Control (MARL):** Integrated SUMO traffic simulation with PettingZoo and Ray RLlib, deploying Proximal Policy Optimization (PPO) to dynamically control urban traffic signals.
 
 ---
