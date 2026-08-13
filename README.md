@@ -6,7 +6,6 @@ I am an advanced Machine Learning Engineer specializing in deep learning, comple
 
 ### 🚀 About Me
 * 🔭 I specialize in combining complex signal processing (RF, Radar, Acoustic) with state-of-the-art AI architectures.
-* 🌱 I thrive in fast-paced learning environments, frequently adapting to new database and infrastructure requirements under tight deadlines (such as mastering Oracle DBA interview concepts in just two days).
 * 🔬 I am the author of peer-reviewed predictive modeling research published in *Nature Scientific Reports*.
 * ⚡ Beyond the code, I focus on precision and strategy—whether that is dialing in the exact 17-gram extraction for a double shot of espresso, or coordinating competitive matches in Dota 2.
 
