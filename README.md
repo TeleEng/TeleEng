@@ -13,10 +13,10 @@ I am an advanced Machine Learning Engineer specializing in deep learning, comple
 
 | Domain | Technologies | Mastery |
 | :--- | :--- | :---: |
-| **AI & Deep Learning** | PyTorch, TensorFlow, LLMs, RAG, LoRA/PEFT, YOLOv8, TFT, GNN, RL | ⭐⭐⭐⭐⭐ |
+| **AI & Deep Learning** | PyTorch, TensorFlow, LLMs, GraphRAG, PEFT/QLoRA, YOLOv8, RL | ⭐⭐⭐⭐⭐ |
 | **Signal Processing** | 1D-CNNs, OpenCV, DWT, EMD, DMD, Kalman Filters, RF Fingerprinting | ⭐⭐⭐⭐⭐ |
 | **Optimization** | MILP, Benders Decomposition, ACO, Meta-heuristics (GVNS, CBS, SOM) | ⭐⭐⭐⭐⭐ |
-| **MLOps & Backend** | Python, FastAPI, Docker, GitHub Actions, Microservices, SQLite, MySQL | ⭐⭐⭐⭐⭐ |
+| **MLOps & Backend** | Python, FastAPI, Docker, Neo4j/Kùzu, SQLite, MySQL | ⭐⭐⭐⭐⭐ |
 | **Real-Time Web (New)** | WebSockets, Asynchronous Streaming, Vanilla JS, DOM Manipulation | ⭐⭐⭐ |
 
 ---
@@ -29,7 +29,10 @@ I am an advanced Machine Learning Engineer specializing in deep learning, comple
 * **Temporal Fusion Transformer Trading Engine:** Developed an intraday FX algorithmic trading bot utilizing PyTorch-based TFTs to process 30-timestep sequences for market regime prediction, aggressively filtering contradictory market labels with PyTorch Edited Nearest Neighbors (ENN).
 * **Robust Hub Location Optimization:** Solved complex network memory blowups by reducing formulation complexity from **$O(N^4)$ to $O(N^2)$** using Benders Decomposition, replacing slow solver evaluations with vectorized tensor operations.
 * **Multi-Agent Traffic Control (MARL):** Integrated SUMO traffic simulation with PettingZoo and Ray RLlib, deploying Proximal Policy Optimization (PPO) to dynamically control urban traffic signals.
-
+* **[MedRAG: Cross-Lingual GraphRAG Medical System](https://github.com/TeleEng/MedRAG):** Designed an end-to-end, instruction-tuned Retrieval-Augmented Generation pipeline tailored for complex medical Q&A.
+  * *Hybrid Retrieval Engine:* Fused a Graph Database (Neo4j/Kùzu) with semantic (FAISS) and lexical (BM25) search, mathematically merged via Reciprocal Rank Fusion (RRF) and MS-MARCO Cross-Encoder reranking.
+  * *Compute Optimization:* Engineered precise 4-bit quantization and dtype management to successfully deploy `Qwen2.5-1.5B-Instruct` on legacy Turing GPUs (Kaggle T4), bypassing inherent `bfloat16` hardware limitations.
+  * *Cross-Lingual Orchestration:* Leveraged distilled translation models to intercept Persian queries, execute exact medical reasoning in English, and generate grounded Persian responses.
 ---
 
 ### 📚 Academic Research
